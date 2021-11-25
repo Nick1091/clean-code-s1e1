@@ -13,20 +13,20 @@
         Want more details?
     </a>
   </header>
-  <main class="todo centered-main-page-element">
-    <h1 class="title-main" id="topSectionForAddingElementToList">
-      <label class="new-task__title" for="new-task">Add Item</label>
+  <main class="todo">
+    <h1 class="title-main">
+      <label class="title-main__title" for="new-task">Add Item</label>
     </h1>
     <div class="task-wrapper task-row-wrapper">
-      <input id="new-task" class="task-wrapper__input task input input-text" type="text">
+      <input id="new-task" class="task-wrapper__input task  input-text" type="text">
       <button class="todo__btn task-wrapper__button">Add</button>
     </div>
     <h3 class="todo__title">Todo</h3>
-    <ul class="todo__list todo__list_incomplete" id="incompleteTasks">
+    <ul class="todo__list todo__list_incomplete">
       <li class ="todo__task_incomplete">
         <input class="checkbox" type="checkbox">
         <label class="task-label">Pay Bills</label>
-        <input type="text" class="input task input-text ">
+        <input type="text" class="task input-text ">
         <button class="todo__btn edit">Edit</button>
         <button class="todo__btn delete">
           <img class="todo__image-btn" src="./remove.svg" alt="remove">
@@ -35,7 +35,7 @@
       <li class="todo__task_incomplete edit-mode">
         <input class="checkbox" type="checkbox">
         <label class="task-label">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="input task input-text">
+        <input type="text" value="Go Shopping" class="task input-text">
         <button class="todo__btn edit">Save</button>
         <button class="todo__btn delete">
           <img class="todo__image-btn" src="./remove.svg" alt="remove">
@@ -47,7 +47,7 @@
       <li class="todo__task_complete">
         <input class="checkbox" type="checkbox" checked>
         <label class="todo__complete-label task-label">See the Doctor</label>
-        <input type="text" class="input task input-text">
+        <input type="text" class="task input-text">
         <button class="todo__btn edit">Edit</button>
         <button class="todo__btn delete">
           <img class="todo__image-btn" src="./remove.svg" alt="remove">
